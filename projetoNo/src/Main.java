@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		No no1 = new No("1º Nó");
+		
+		No no2 = new No("2º Nó");
+		no1.setProximoNo(no2);
+		
+		No no3 = new No("3º Nó");
+		no2.setProximoNo(no3);
+		
+		System.out.println(no1 + " próximo nó: " + no1.getProximoNo());
+		System.out.println(no2 + " próximo nó: " + no2.getProximoNo());
+		System.out.println(no3 + " próximo nó: " + no3.getProximoNo());
+		
+		//Aqui podemos ver um encadeamento de nós, sempre apontando para o próximo, mas o último será nulo
+
+	}
+
+}

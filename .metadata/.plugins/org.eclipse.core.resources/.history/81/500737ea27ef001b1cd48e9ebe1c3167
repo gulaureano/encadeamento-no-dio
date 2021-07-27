@@ -1,0 +1,10 @@
+package projetoNo;
+
+public class No {
+	
+	private String conteudo;
+	private No proximoNo;
+	
+	
+	
+}

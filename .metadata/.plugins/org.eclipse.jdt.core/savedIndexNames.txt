@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\GustavoProjetc\DIO\Estrutra de Dados em Java\projetono\.metadata\.plugins\org.eclipse.jdt.core
+1497378174.index
+3474331153.index
